@@ -1,7 +1,6 @@
 ---
 - name: Deploy Maven Artifact (Jenkins User Accessible)
   hosts: localhost
-  become: yes
 
   tasks:
     - name: Ensure deployment directory exists
